@@ -54,13 +54,9 @@ An interactive dashboard was developed using Tableau Public to visually summariz
 - Gender-based heart disease patterns
 - Maximum heart rate differences
 
-🔗 View the dashboard on Tableau Public:
+View the dashboard on Tableau Public:
 https://public.tableau.com/app/profile/aprillia.anung.anindhita/viz/HeartDiseasePatientAnalysisDashboard/Dashboard1
 
-Project Structure
-├── Heart_Disease_EDA.ipynb     
-├── Heart_Disease_Prediction.csv  
-└── README.md                     
 
 ### Author
 Informatics Engineering Student
