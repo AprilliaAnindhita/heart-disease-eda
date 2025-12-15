@@ -8,8 +8,6 @@ presence of heart disease using descriptive statistics and data visualization.
 This project is designed as a beginner-to-intermediate level data analysis portfolio
 using real-world healthcare data.
 
----
-
 ## Dataset
 - **Name**: Heart Disease Prediction Dataset
 - **Source**: Kaggle
@@ -22,16 +20,12 @@ using real-world healthcare data.
   - `Presence` → Patient has heart disease
   - `Absence` → Patient does not have heart disease
 
----
-
 ## Tools & Libraries
 - Python
 - Google Colab
 - pandas
 - matplotlib
 - seaborn
-
----
 
 ## Analysis Performed
 The following analyses were conducted:
@@ -43,16 +37,12 @@ The following analyses were conducted:
 - Blood pressure comparison
 - Maximum heart rate (Max HR) analysis
 
----
-
 ## Key Findings
 - Patients with heart disease tend to be older
 - Male patients show a higher proportion of heart disease
 - Cholesterol and blood pressure are higher among patients with heart disease
 - **Max HR shows the strongest distinction**, where patients with heart disease have
   significantly lower maximum heart rates
-
----
 
 ## Conclusion
 The analysis indicates that heart disease is associated with a combination of
@@ -61,14 +51,10 @@ to be the most informative indicator in distinguishing patients with heart disea
 This project demonstrates the value of exploratory data analysis in healthcare data
 before applying predictive modeling.
 
----
-
 ## Project Structure
 - `Heart_Disease_EDA.ipynb` → Main analysis notebook
 - `Heart_Disease_Prediction.csv` → Dataset
 - `README.md` → Project documentation
-
----
 
 ## Author
 Informatics Engineering Student  
