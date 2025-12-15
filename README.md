@@ -1,24 +1,22 @@
 ## Heart Disease Exploratory Data Analysis (EDA)
 
 ### Project Overview
-This project focuses on Exploratory Data Analysis (EDA) of a heart disease dataset.
-The objective is to identify demographic and clinical factors associated with the
-presence of heart disease using descriptive statistics and data visualization.
+This project presents an Exploratory Data Analysis (EDA) of a heart disease dataset with the aim of identifying key demographic and clinical factors associated with the presence of heart disease.
+The analysis utilizes descriptive statistics and data visualization techniques to uncover patterns and relationships within real-world healthcare data.
 
-This project is designed as a beginner-to-intermediate level data analysis portfolio
-using real-world healthcare data.
+This project is designed as a beginner-to-intermediate level data analytics portfolio, demonstrating fundamental skills in data cleaning, exploration, visualization, and insight generation using Python.
 
 ### Dataset
-- **Name**: Heart Disease Prediction Dataset
-- **Source**: Kaggle
-- **Format**: CSV
-- **Records**: 270 patients
-- **Features**: 14 variables (demographic & clinical)
+Name: Heart Disease Prediction Dataset
+Source: Kaggle
+Format: CSV
+Total Records: 270 patients
+Features: 14 variables (demographic and clinical attributes)
 
-#### Target Variable
-- `Heart Disease`
-  - `Presence` → Patient has heart disease
-  - `Absence` → Patient does not have heart disease
+### Target Variable
+- Heart Disease
+    * Presence → Patient has heart disease
+    * Absence → Patient does not have heart disease
 
 ### Tools & Libraries
 - Python
@@ -28,34 +26,42 @@ using real-world healthcare data.
 - seaborn
 
 ### Analysis Performed
-The following analyses were conducted:
-
-- Distribution of heart disease cases
-- Age vs heart disease analysis
-- Gender vs heart disease analysis
-- Cholesterol comparison
-- Blood pressure comparison
-- Maximum heart rate (Max HR) analysis
+The following exploratory analyses were conducted:
+1. Distribution of heart disease cases
+2. Age comparison between patients with and without heart disease
+3. Gender-based heart disease analysis
+4. Cholesterol level comparison
+5. Blood pressure (BP) comparison
+6. Maximum heart rate (Max HR) analysis
 
 ### Key Findings
-- Patients with heart disease tend to be older
-- Male patients show a higher proportion of heart disease
-- Cholesterol and blood pressure are higher among patients with heart disease
-- **Max HR shows the strongest distinction**, where patients with heart disease have
-  significantly lower maximum heart rates
+- Patients diagnosed with heart disease tend to be older on average
+- Male patients show a higher proportion of heart disease compared to females
+- Cholesterol and blood pressure levels are generally higher among patients with heart disease
+- Maximum heart rate (Max HR) shows the strongest distinction, where patients with heart disease tend to have significantly lower maximum heart rates
 
 ### Conclusion
-The analysis indicates that heart disease is associated with a combination of
-demographic and clinical factors. Among all variables, maximum heart rate appears
-to be the most informative indicator in distinguishing patients with heart disease.
-This project demonstrates the value of exploratory data analysis in healthcare data
-before applying predictive modeling.
+The exploratory analysis indicates that heart disease is associated with a combination of demographic and clinical factors.
+Among all variables examined, maximum heart rate emerges as the most informative indicator for distinguishing patients with heart disease.
 
-### Project Structure
-- `Heart_Disease_EDA.ipynb` → Main analysis notebook
-- `Heart_Disease_Prediction.csv` → Dataset
-- `README.md` → Project documentation
+This project highlights the importance of exploratory data analysis in healthcare analytics as a critical step before applying predictive or machine learning models.
+
+### Interactive Dashboard (Tableau)
+An interactive dashboard was developed using Tableau Public to visually summarize and communicate the key findings from the analysis, including:
+
+- Distribution of heart disease cases
+- Age comparison by heart disease status
+- Gender-based heart disease patterns
+- Maximum heart rate differences
+
+🔗 View the dashboard on Tableau Public:
+https://public.tableau.com/app/profile/aprillia.anung.anindhita/viz/HeartDiseasePatientAnalysisDashboard/Dashboard1
+
+Project Structure
+├── Heart_Disease_EDA.ipynb     
+├── Heart_Disease_Prediction.csv  
+└── README.md                     
 
 ### Author
-Informatics Engineering Student  
+Informatics Engineering Student
 Beginner Data Analyst Portfolio Project
