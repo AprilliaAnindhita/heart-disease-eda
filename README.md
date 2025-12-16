@@ -1,6 +1,6 @@
-# Heart Disease Exploratory Data Analysis & Prediction
+## Heart Disease Exploratory Data Analysis & Prediction
 
-## Project Overview
+### Project Overview
 This project focuses on exploratory data analysis (EDA) and machine learning
 modeling of a heart disease dataset. The objective is to identify demographic
 and clinical factors associated with heart disease and to build a baseline
@@ -9,7 +9,7 @@ classification model for prediction.
 This project is designed as a beginner-to-intermediate level data analysis
 portfolio using real-world healthcare data.
 
-## Dataset
+### Dataset
 - **Name**: Heart Disease Prediction Dataset
 - **Source**: Kaggle
 - **Format**: CSV
@@ -21,7 +21,7 @@ portfolio using real-world healthcare data.
   - `0` → Absence
   - `1` → Presence
 
-## Tools & Technologies
+### Tools & Technologies
 - Python
 - Google Colab
 - pandas, numpy
@@ -29,7 +29,7 @@ portfolio using real-world healthcare data.
 - scikit-learn
 - Tableau Public
 
-## Analysis Workflow
+### Analysis Workflow
 The project follows a structured data analysis pipeline:
 
 1. Data loading and inspection
@@ -41,13 +41,13 @@ The project follows a structured data analysis pipeline:
 7. Feature importance analysis and interpretation
 8. Interactive data visualization using Tableau
 
-## Key Findings
+### Key Findings
 - Patients with heart disease tend to be older
 - Male patients show a higher proportion of heart disease
 - Maximum heart rate (Max HR) shows a strong negative relationship with heart disease
 - The number of vessels detected by fluoroscopy is the most influential predictor
 
-## Model Performance
+### Model Performance
 - **Model**: Logistic Regression
 - **Accuracy**: ~85%
 - **AUC Score**: ~0.87
@@ -55,14 +55,14 @@ The project follows a structured data analysis pipeline:
 The model demonstrates good discriminatory power and serves as a strong baseline
 for further predictive modeling.
 
-## Interactive Dashboard
+### Interactive Dashboard
 An interactive Tableau dashboard was created to visualize key findings from the
 EDA and model insights.
 
 🔗 **Tableau Public Dashboard**  
 https://public.tableau.com/app/profile/aprillia.anung.anindhita/viz/HeartDiseasePatientAnalysisDashboard/Dashboard1
 
-## Author
+### Author
 **Aprillia Anung Anindhita**  
 Informatics Engineering Student  
 *Beginner Data Analyst Portfolio Project*
