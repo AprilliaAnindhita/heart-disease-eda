@@ -65,4 +65,4 @@ https://public.tableau.com/app/profile/aprillia.anung.anindhita/viz/HeartDisease
 ## Author
 **Aprillia Anung Anindhita**  
 Informatics Engineering Student  
-Beginner Data Analyst Portfolio Project
+*Beginner Data Analyst Portfolio Project*
