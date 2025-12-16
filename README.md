@@ -65,8 +65,7 @@ https://public.tableau.com/app/profile/aprillia.anung.anindhita/viz/HeartDisease
 
 ### Project Structure
 heart-disease-eda/
-│
-├── heart_disease_eda.py
+├──heart_disease_eda.py
 ├── heart_disease_prediction.py
 ├── Heart_Disease_Prediction.csv
 ├── README.md
