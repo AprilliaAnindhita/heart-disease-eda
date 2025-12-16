@@ -20,6 +20,7 @@ portfolio using real-world healthcare data.
 - **Heart Disease**
   - `0` → Absence
   - `1` → Presence
+ *The target variable was encoded for modeling purposes.*
 
 ### Tools & Technologies
 - Python
@@ -62,6 +63,21 @@ EDA and model insights.
 🔗 **Tableau Public Dashboard**  
 https://public.tableau.com/app/profile/aprillia.anung.anindhita/viz/HeartDiseasePatientAnalysisDashboard/Dashboard1
 
+### Project Structure
+heart-disease-eda/
+│
+├── heart_disease_eda.py
+├── heart_disease_prediction.py
+├── Heart_Disease_Prediction.csv
+├── README.md
+
+
+### Future Work
+- Experiment with additional classification models (Random Forest, XGBoost)
+- Perform hyperparameter tuning
+- Apply cross-validation for more robust evaluation
+- Explore explainability methods such as SHAP values
+  
 ### Author
 **Aprillia Anung Anindhita**  
 Informatics Engineering Student  
